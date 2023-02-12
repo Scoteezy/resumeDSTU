@@ -1,0 +1,40 @@
+body{
+    background-color:#F9EBEA ;
+    
+}
+.resume{
+    display: flex;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.main{
+    margin-top: 15px;
+    display: flex;
+}
+.main__descr{
+    margin-left: 25px;
+}
+.info{
+    margin-top: 10px;
+}
+.img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.contact{
+    display: flex;
+}
+.contact__type{
+    min-width: 90px;
+}
+.meet{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}

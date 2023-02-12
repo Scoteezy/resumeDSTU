@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="resume">
+        <div class="container">
+            <h1>Резюме</h1>
+            <div class="main">
+                <img src="main.jpg" alt="" class="img">
+                <div class="main__descr">
+                    <h2 class="main__name">Бондаренко Денис Олегович</h2>
+                    <div class="main__group">
+                        <h2>Группа</h2>
+                        ВИАС23
+                    </div>
+                    <div class="main__education">
+                        <h2>Образование</h2>
+                        <ul>
+                            <li>Основное общее</li>
+                            <li>Среднее общее</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="info__work">
+                    <h2 >Опыт работы</h2>
+                    Не имеется.
+                </div>
+                <div class="info__interests">
+                    <h2>Интересы</h2>
+                    Программирование,чтение, компьютерные игры, фильмы.
+                </div>
+                <div class="info__contact">
+                    <h2>Контакты</h2>
+                    <div class="contact">
+                        <div class="contact__type">
+                            GitHub
+                        </div>
+                        <div class="contact__value">
+                            <a href="https://github.com/Scoteezy" target="_blank">github.com/Scoteezy</a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact__type">
+                            Email
+                        </div>
+                        <div class="contact__value">
+                            <a href="mailto:scoteeezy@gmail.com">scoteeezy@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact__type">
+                            Telegram
+                        </div>
+                        <div class="contact__value">
+                            <a  href="https://t.me/devdvlive" target="_blank">@devdvlive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <form class="meet">
+        <fieldset>
+            <legend>Давайте знакомиться</legend>
+            Имя: <input type ="text" name = "firstname" required> <br>
+            Телефон: <input type ="number" name = "phone" required ><br>
+            Email: <input type ="email" name = "Email" required ><br>
+            Дата рождения: <input type ="date" name = "Email" required ><br>
+            Образование: <br>
+            Основное общее <input type ="checkbox" name = "education_1" ><br>
+            Среднее общее <input type ="checkbox" name = "education_2" ><br>
+            Среднее профессиональное <input type ="checkbox" name = "education_3" ><br>
+            Бакалавриат <input type ="checkbox" name = "education_4" ><br>
+
+
+            Сообщение: <textarea name="message" cols="30" rows="10"></textarea> <br>
+
+            
+            <input type="submit" name = "submit" value = "отправить">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
